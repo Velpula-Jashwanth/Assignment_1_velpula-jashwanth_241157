@@ -1,6 +1,3 @@
-#include "solution.h"
-#include <unordered_map>
-
 vector<int> Solution::twoSum(const vector<int>& numbers, int target) {
     unordered_map<int, int> num_to_index;
     vector<int> result;
